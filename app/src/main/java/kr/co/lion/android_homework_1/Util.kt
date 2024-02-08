@@ -25,7 +25,6 @@ class Util {
         fun showSoftInput(view: View, context: Context){
             // 포커스를 준다.
             view.requestFocus()
-
             thread {
                 SystemClock.sleep(1000)
                 val inputMethodManager = context.getSystemService(AppCompatActivity.INPUT_METHOD_SERVICE) as InputMethodManager
